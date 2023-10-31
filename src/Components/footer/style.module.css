@@ -1,0 +1,171 @@
+.delivery{
+    padding: 0 100px;
+    margin: 80px 0;
+}
+
+.deliveryItem{
+    text-align: center;
+}
+
+.deliveryItem i{
+    font-size: 60px;
+    line-height: 60px;
+}
+
+/* footer */
+.footer{
+    background: #FAFAFA;
+    padding: 80px 100px;
+    padding-bottom: 20px;
+}
+
+.footerLogo{
+    margin-right: 120px;
+}
+
+.footerLogo p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footerLogo .img{
+    margin-bottom: 20px;
+}
+
+.footerLogo img{
+    height: 80px;
+}
+
+.socialMedia {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.socialMedia a{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--bg-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.socialMedia i{
+    font-size: 20px;
+    line-height: 20px;
+    transition: all linear .1s;
+    color: var(--white-color);
+    transform: scale(1);
+}
+
+.socialMedia a:hover i{
+    transform: scale(1.1);
+}
+
+.footerItem li{
+    margin-top: 10px;
+}
+
+.footerItem li a:hover{
+    color: var(--bg-color);
+}
+
+/* copyRight */
+.copyRight{
+    border-top: 1px solid #DDD;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.copyRight a{
+    font-weight: 700;
+    padding: 0 5px;
+}
+
+
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+    .footer {
+        background: #FAFAFA;
+        padding: 80px 0px;
+        padding-bottom: 20px;
+    }
+
+    .footerLogo {
+        margin-right: 30px;
+    }
+
+    .footerLogo img {
+        height: 50px;
+    }
+
+    .delivery {
+        padding: 0 30px;
+        margin: 80px 0;
+    }
+
+}
+
+
+@media (max-width: 1023px) {
+
+    .deliveryItem i {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .deliveryItem h3 {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 700;
+        color: var(--header-color);
+    }
+
+    .socialMedia a {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .socialMedia i {
+        font-size: 17px;
+        line-height: 16px;
+        transition: all linear .1s;
+        color: var(--white-color);
+        transform: scale(1);
+    }
+
+    .delivery {
+        padding: 0;
+        margin: 50px 0;
+    }
+
+    .deliveryItem{
+        margin: 30px 0;
+    }
+
+    .footerLogo {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .socialMedia {
+        justify-content: center;
+    }
+
+    .footerItem{
+        margin-top: 30px;
+    }
+
+    .footer {
+        padding: 30px 0px;
+        padding-bottom: 20px;
+    }
+
+}
