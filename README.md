@@ -1,38 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Alt text](image-1.png)
 
-## Getting Started
+# Salon and Beauty Marketplace Website
 
-First, run the development server:
+Welcome to our Salon and Beauty Marketplace website built with Next.js! This
+platform offers a seamless experience for users to explore services, schedule
+appointments, and connect with beauty professionals. Salon owners and
+administrators can efficiently manage services, schedules, and user interactions
+through the dashboard.
+
+## Preview website : https://salon-shop-blond.vercel.app/
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Admin Dashboard](#admin-dashboard)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+## Features
+
+- **User Interface:**
+     - Home Page: Introduction to our services and user-friendly navigation.
+     - Services Page: Explore a wide range of beauty and salon services.
+     - Service Details Page: Detailed information about each service.
+     - User Authentication: Secure login and signup functionalities.
+     - Appointment Booking: Users can confirm and manage their bookings.
+- **Admin Dashboard:**
+     - Service Management: Add, edit, and remove services and categories.
+     - Schedule Management: Set available time slots and manage appointments.
+     - Blog Management: Publish and manage blog posts.
+     - User Management: View and manage user appointments.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js installed on your local machine.
+- Salon and Beauty Marketplace API keys (for integrating external services, if
+  applicable).
+
+## Installation
+
+1. Clone the repository:
+
+      ```bash
+      git clone [repository URL]
+      cd salon-beauty-marketplace
+      ```
+
+2. Install dependencies:
+
+      ```bash
+      npm install
+      ```
+
+3. Set up environment variables:
+
+      Create a `.env.local` file in the root directory and add the necessary
+      environment variables (e.g., API keys, database connection details).
+
+## Usage
+
+To start the development server, run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Access the website at `http://localhost:3000`.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Admin Dashboard
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The admin dashboard provides a centralized platform for managing the salon and
+beauty marketplace. Access the dashboard at `/admin` after logging in as an
+admin user.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We welcome contributions from the community! To contribute to the project,
+follow these steps:
 
-## Learn More
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+Please make sure to update tests and documentation as appropriate.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
